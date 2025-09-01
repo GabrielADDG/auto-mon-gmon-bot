@@ -1,0 +1,29 @@
+{
+  "name": "auto-mon-gmon-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automated deposit & withdraw bot for MON ↔ gMON on magma",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monad",
+    "airdrop",
+    "bot",
+    "swap",
+    "web3",
+    "magma",
+    "crypto",
+    "blockchain",
+    "automation"
+  ],
+  "author": "rihuta",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2"
+  }
+}
